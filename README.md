@@ -22,14 +22,15 @@
 
 <p> Remember that this is just an idea to demonstrate a possible use of microservice...</p>
 
+<p>Example Eureka</p>
 <img src="https://github.com/sovanderlei/microserviceeurekacloud/blob/main/imagemexemplo/eureka.png" style="width:600px;height:600px;" 
 alt="Minha Figura">
 </br>
-
+<p>Example QrCode</p>
 <img src="https://github.com/sovanderlei/microserviceeurekacloud/blob/main/imagemexemplo/QrCode0002.jpg" style="width:600px;height:600px;" 
 alt="Minha Figura">
 </br>
-
+<p>Example Final join images</p>
 <img src="https://github.com/sovanderlei/microserviceeurekacloud/blob/main/imagemexemplo/ChequeExemplos.png" style="width:600px;height:600px;" 
 alt="Minha Figura">
 </br>
