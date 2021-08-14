@@ -1,0 +1,191 @@
+2021-ago-09 10:12:33 [main] INFO  c.m.b.BankCheckControllerApplication               - System Start
+2021-ago-09 10:12:34 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - System Start
+2021-ago-09 10:12:34 [background-preinit] INFO  o.h.v.i.u.Version                                  - HV000001: Hibernate Validator 6.2.0.Final
+2021-ago-09 10:12:34 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - Starting BankCheckControllerApplication using Java 1.8.0_301 on EST252N with PID 13124 (D:\Programacao\java\ms_eureka_cloud\BankCheckController\target\classes started by voliveira in D:\Programacao\java\ms_eureka_cloud\BankCheckController)
+2021-ago-09 10:12:34 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - No active profile set, falling back to default profiles: default
+2021-ago-09 10:12:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-ago-09 10:12:34 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-ago-09 10:12:35 [restartedMain] INFO  o.s.c.c.s.GenericScope                             - BeanFactory id=74082751-e8f7-30b4-8228-39fe51f01519
+2021-ago-09 10:12:35 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 9005 (http)
+2021-ago-09 10:12:35 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-9005"]
+2021-ago-09 10:12:35 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2021-ago-09 10:12:35 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-ago-09 10:12:35 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2021-ago-09 10:12:35 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 798 ms
+2021-ago-09 10:12:35 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2021-ago-09 10:12:35 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-ago-09 10:12:36 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-ago-09 10:12:36 [restartedMain] INFO  o.s.c.n.e.InstanceInfoFactory                      - Setting initial instance status as: STARTING
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Initializing Eureka in region us-east-1
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.s.r.a.ConfigClusterResolver                  - Resolving eureka endpoints via configuration
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Disable delta property : false
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Single vip registry refresh property : null
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Force full registry fetch : false
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Application is null : false
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Registered Applications size is zero : true
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Application version is -1: true
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Getting all instance registry info from the eureka server
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - The response status is 200
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Starting heartbeat executor: renew interval is: 30
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.InstanceInfoReplicator                       - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Discovery Client initialized at timestamp 1628514756702 with initial instances count: 0
+2021-ago-09 10:12:36 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application BANKCHECK with eureka with status UP
+2021-ago-09 10:12:36 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Saw local status change event StatusChangeEvent [timestamp=1628514756704, current=UP, previous=STARTING]
+2021-ago-09 10:12:36 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005: registering service...
+2021-ago-09 10:12:36 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-9005"]
+2021-ago-09 10:12:36 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 9005 (http) with context path ''
+2021-ago-09 10:12:36 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 9005
+2021-ago-09 10:12:36 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - registration status: 204
+2021-ago-09 10:12:36 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - Started BankCheckControllerApplication in 2.892 seconds (JVM running for 3.61)
+2021-ago-09 10:13:06 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient                              - Disable delta property : false
+2021-ago-09 10:13:06 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient                              - Single vip registry refresh property : null
+2021-ago-09 10:13:06 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient                              - Force full registry fetch : false
+2021-ago-09 10:13:06 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient                              - Application is null : false
+2021-ago-09 10:13:06 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient                              - Registered Applications size is zero : true
+2021-ago-09 10:13:06 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient                              - Application version is -1: false
+2021-ago-09 10:13:06 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient                              - Getting all instance registry info from the eureka server
+2021-ago-09 10:13:06 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.n.d.DiscoveryClient                              - The response status is 200
+2021-ago-09 10:13:52 [Thread-2] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application BANKCHECK with eureka with status DOWN
+2021-ago-09 10:13:52 [Thread-2] INFO  c.n.d.DiscoveryClient                              - Saw local status change event StatusChangeEvent [timestamp=1628514832404, current=DOWN, previous=UP]
+2021-ago-09 10:13:52 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005: registering service...
+2021-ago-09 10:13:52 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - registration status: 204
+2021-ago-09 10:13:52 [Thread-2] INFO  c.n.d.DiscoveryClient                              - Shutting down DiscoveryClient ...
+2021-ago-09 10:13:55 [Thread-2] INFO  c.n.d.DiscoveryClient                              - Unregistering ...
+2021-ago-09 10:13:55 [Thread-2] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - deregister  status: 200
+2021-ago-09 10:13:55 [Thread-2] INFO  c.n.d.DiscoveryClient                              - Completed shut down of DiscoveryClient
+2021-ago-09 10:13:55 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - System Start
+2021-ago-09 10:13:55 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - Starting BankCheckControllerApplication using Java 1.8.0_301 on EST252N with PID 13124 (D:\Programacao\java\ms_eureka_cloud\BankCheckController\target\classes started by voliveira in D:\Programacao\java\ms_eureka_cloud\BankCheckController)
+2021-ago-09 10:13:55 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - No active profile set, falling back to default profiles: default
+2021-ago-09 10:13:56 [restartedMain] INFO  o.s.c.c.s.GenericScope                             - BeanFactory id=74082751-e8f7-30b4-8228-39fe51f01519
+2021-ago-09 10:13:56 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 9005 (http)
+2021-ago-09 10:13:56 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-9005"]
+2021-ago-09 10:13:56 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2021-ago-09 10:13:56 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-ago-09 10:13:56 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2021-ago-09 10:13:56 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 196 ms
+2021-ago-09 10:13:56 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2021-ago-09 10:13:56 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-ago-09 10:13:56 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-ago-09 10:13:56 [restartedMain] INFO  o.s.c.n.e.InstanceInfoFactory                      - Setting initial instance status as: STARTING
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Initializing Eureka in region us-east-1
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.s.r.a.ConfigClusterResolver                  - Resolving eureka endpoints via configuration
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Disable delta property : false
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Single vip registry refresh property : null
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Force full registry fetch : false
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Application is null : false
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Registered Applications size is zero : true
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Application version is -1: true
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Getting all instance registry info from the eureka server
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - The response status is 200
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Starting heartbeat executor: renew interval is: 30
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.InstanceInfoReplicator                       - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Discovery Client initialized at timestamp 1628514836630 with initial instances count: 1
+2021-ago-09 10:13:56 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application BANKCHECK with eureka with status UP
+2021-ago-09 10:13:56 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Saw local status change event StatusChangeEvent [timestamp=1628514836631, current=UP, previous=STARTING]
+2021-ago-09 10:13:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005: registering service...
+2021-ago-09 10:13:56 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-9005"]
+2021-ago-09 10:13:56 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 9005 (http) with context path ''
+2021-ago-09 10:13:56 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 9005
+2021-ago-09 10:13:56 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - registration status: 204
+2021-ago-09 10:13:56 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - Started BankCheckControllerApplication in 1.124 seconds (JVM running for 83.504)
+2021-ago-09 10:13:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-ago-09 10:14:51 [Thread-8] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application BANKCHECK with eureka with status DOWN
+2021-ago-09 10:14:51 [Thread-8] INFO  c.n.d.DiscoveryClient                              - Saw local status change event StatusChangeEvent [timestamp=1628514891613, current=DOWN, previous=UP]
+2021-ago-09 10:14:51 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005: registering service...
+2021-ago-09 10:14:51 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - registration status: 204
+2021-ago-09 10:14:51 [Thread-8] INFO  c.n.d.DiscoveryClient                              - Shutting down DiscoveryClient ...
+2021-ago-09 10:14:54 [Thread-8] INFO  c.n.d.DiscoveryClient                              - Unregistering ...
+2021-ago-09 10:14:54 [Thread-8] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - deregister  status: 200
+2021-ago-09 10:14:54 [Thread-8] INFO  c.n.d.DiscoveryClient                              - Completed shut down of DiscoveryClient
+2021-ago-09 10:14:54 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - System Start
+2021-ago-09 10:14:55 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - Starting BankCheckControllerApplication using Java 1.8.0_301 on EST252N with PID 13124 (D:\Programacao\java\ms_eureka_cloud\BankCheckController\target\classes started by voliveira in D:\Programacao\java\ms_eureka_cloud\BankCheckController)
+2021-ago-09 10:14:55 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - No active profile set, falling back to default profiles: default
+2021-ago-09 10:14:55 [restartedMain] INFO  o.s.c.c.s.GenericScope                             - BeanFactory id=74082751-e8f7-30b4-8228-39fe51f01519
+2021-ago-09 10:14:55 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 9005 (http)
+2021-ago-09 10:14:55 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-9005"]
+2021-ago-09 10:14:55 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2021-ago-09 10:14:55 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-ago-09 10:14:55 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2021-ago-09 10:14:55 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 222 ms
+2021-ago-09 10:14:55 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2021-ago-09 10:14:55 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-ago-09 10:14:55 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-ago-09 10:14:55 [restartedMain] INFO  o.s.c.n.e.InstanceInfoFactory                      - Setting initial instance status as: STARTING
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Initializing Eureka in region us-east-1
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.s.r.a.ConfigClusterResolver                  - Resolving eureka endpoints via configuration
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Disable delta property : false
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Single vip registry refresh property : null
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Force full registry fetch : false
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Application is null : false
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Registered Applications size is zero : true
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Application version is -1: true
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Getting all instance registry info from the eureka server
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - The response status is 200
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Starting heartbeat executor: renew interval is: 30
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.InstanceInfoReplicator                       - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Discovery Client initialized at timestamp 1628514895977 with initial instances count: 1
+2021-ago-09 10:14:55 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application BANKCHECK with eureka with status UP
+2021-ago-09 10:14:55 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Saw local status change event StatusChangeEvent [timestamp=1628514895978, current=UP, previous=STARTING]
+2021-ago-09 10:14:55 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005: registering service...
+2021-ago-09 10:14:55 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-9005"]
+2021-ago-09 10:14:55 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 9005 (http) with context path ''
+2021-ago-09 10:14:55 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 9005
+2021-ago-09 10:14:55 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - registration status: 204
+2021-ago-09 10:14:56 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - Started BankCheckControllerApplication in 1.224 seconds (JVM running for 142.846)
+2021-ago-09 10:14:56 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-ago-09 10:15:46 [http-nio-9005-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-ago-09 10:15:46 [http-nio-9005-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet'
+2021-ago-09 10:15:46 [http-nio-9005-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 1 ms
+2021-ago-09 10:19:43 [Thread-14] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application BANKCHECK with eureka with status DOWN
+2021-ago-09 10:19:43 [Thread-14] INFO  c.n.d.DiscoveryClient                              - Saw local status change event StatusChangeEvent [timestamp=1628515183727, current=DOWN, previous=UP]
+2021-ago-09 10:19:43 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005: registering service...
+2021-ago-09 10:19:43 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - registration status: 204
+2021-ago-09 10:19:43 [Thread-14] INFO  c.n.d.DiscoveryClient                              - Shutting down DiscoveryClient ...
+2021-ago-09 10:19:46 [Thread-14] INFO  c.n.d.DiscoveryClient                              - Unregistering ...
+2021-ago-09 10:19:46 [Thread-14] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - deregister  status: 200
+2021-ago-09 10:19:46 [Thread-14] INFO  c.n.d.DiscoveryClient                              - Completed shut down of DiscoveryClient
+2021-ago-09 10:19:47 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - System Start
+2021-ago-09 10:19:47 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - Starting BankCheckControllerApplication using Java 1.8.0_301 on EST252N with PID 13124 (D:\Programacao\java\ms_eureka_cloud\BankCheckController\target\classes started by voliveira in D:\Programacao\java\ms_eureka_cloud\BankCheckController)
+2021-ago-09 10:19:47 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - No active profile set, falling back to default profiles: default
+2021-ago-09 10:19:47 [restartedMain] INFO  o.s.c.c.s.GenericScope                             - BeanFactory id=74082751-e8f7-30b4-8228-39fe51f01519
+2021-ago-09 10:19:47 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 9005 (http)
+2021-ago-09 10:19:47 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-9005"]
+2021-ago-09 10:19:47 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2021-ago-09 10:19:47 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-ago-09 10:19:47 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2021-ago-09 10:19:47 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 174 ms
+2021-ago-09 10:19:47 [restartedMain] WARN  o.s.b.d.a.OptionalLiveReloadServer                 - Unable to start LiveReload server
+2021-ago-09 10:19:47 [restartedMain] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2021-ago-09 10:19:47 [restartedMain] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2021-ago-09 10:19:47 [restartedMain] INFO  o.s.c.n.e.InstanceInfoFactory                      - Setting initial instance status as: STARTING
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Initializing Eureka in region us-east-1
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.s.r.a.ConfigClusterResolver                  - Resolving eureka endpoints via configuration
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Disable delta property : false
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Single vip registry refresh property : null
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Force full registry fetch : false
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Application is null : false
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Registered Applications size is zero : true
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Application version is -1: true
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Getting all instance registry info from the eureka server
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - The response status is 200
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Starting heartbeat executor: renew interval is: 30
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.InstanceInfoReplicator                       - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Discovery Client initialized at timestamp 1628515187897 with initial instances count: 1
+2021-ago-09 10:19:47 [restartedMain] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Registering application BANKCHECK with eureka with status UP
+2021-ago-09 10:19:47 [restartedMain] INFO  c.n.d.DiscoveryClient                              - Saw local status change event StatusChangeEvent [timestamp=1628515187897, current=UP, previous=STARTING]
+2021-ago-09 10:19:47 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005: registering service...
+2021-ago-09 10:19:47 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-9005"]
+2021-ago-09 10:19:47 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 9005 (http) with context path ''
+2021-ago-09 10:19:47 [restartedMain] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration          - Updating port to 9005
+2021-ago-09 10:19:47 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - registration status: 204
+2021-ago-09 10:19:48 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - Started BankCheckControllerApplication in 1.044 seconds (JVM running for 434.764)
+2021-ago-09 10:19:48 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-ago-09 10:22:52 [Thread-20] INFO  o.s.c.n.e.s.EurekaServiceRegistry                  - Unregistering application BANKCHECK with eureka with status DOWN
+2021-ago-09 10:22:52 [Thread-20] INFO  c.n.d.DiscoveryClient                              - Saw local status change event StatusChangeEvent [timestamp=1628515372536, current=DOWN, previous=UP]
+2021-ago-09 10:22:52 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005: registering service...
+2021-ago-09 10:22:52 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - registration status: 204
+2021-ago-09 10:22:52 [Thread-20] INFO  c.n.d.DiscoveryClient                              - Shutting down DiscoveryClient ...
+2021-ago-09 10:22:55 [Thread-20] INFO  c.n.d.DiscoveryClient                              - Unregistering ...
+2021-ago-09 10:22:55 [Thread-20] INFO  c.n.d.DiscoveryClient                              - DiscoveryClient_BANKCHECK/10.30.11.15:bankcheck:9005 - deregister  status: 200
+2021-ago-09 10:22:55 [Thread-20] INFO  c.n.d.DiscoveryClient                              - Completed shut down of DiscoveryClient
+2021-ago-09 10:22:55 [restartedMain] INFO  c.m.b.BankCheckControllerApplication               - System Start
