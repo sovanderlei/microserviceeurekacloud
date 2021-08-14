@@ -10,6 +10,8 @@
 <li>Log4j</li> 
 </ul>
 </br>
+<p> Simple example of using Microservices done in spring boot and how to manage microservices by Eureka…</p>
+
 <p> Example of working with microservices using Java Spring Boot, using Spring Cloud and Eureka to control microservices.</p>
 
 <p> I make it clear that this demo is only to demonstrate the uses of these tools, I have not created any demo of database connection.</p>
@@ -20,11 +22,15 @@
 
 <p> Remember that this is just an idea to demonstrate a possible use of microservice...</p>
 
-<img src="https://github.com/sovanderlei/javastoreback/blob/main/image/javaimg01.png" style="width:600px;height:600px;" 
+<img src="https://github.com/sovanderlei/microserviceeurekacloud/blob/main/imagemexemplo/eureka.png" style="width:600px;height:600px;" 
 alt="Minha Figura">
 </br>
 
-<img src="https://github.com/sovanderlei/javastoreback/blob/main/image/javaimg01.png" style="width:600px;height:600px;" 
+<img src="https://github.com/sovanderlei/microserviceeurekacloud/blob/main/imagemexemplo/QrCode0002.jpg" style="width:600px;height:600px;" 
+alt="Minha Figura">
+</br>
+
+<img src="https://github.com/sovanderlei/microserviceeurekacloud/blob/main/imagemexemplo/ChequeExemplos.png" style="width:600px;height:600px;" 
 alt="Minha Figura">
 </br>
 
