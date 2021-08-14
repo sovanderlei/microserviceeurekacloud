@@ -16,9 +16,25 @@ import com.google.zxing.client.j2se.BufferedImageLuminanceSource;
 import com.google.zxing.common.HybridBinarizer;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
+/**class Microservice  to demonstrate how to merge images and work with QRCode.
+* @author Vanderlei Soares de Oliveira
+* @version 0.01
+* @since Release 01 
+*/
 public class ReadQrCode {
-
-	// user-defined method that reads the QR code
+ 
+	/***
+	 * read QRcode
+	 * @author Vanderlei Soares de Oliveira
+	 * @Date 13/08/2021
+	 * @param path
+	 * @param charset
+	 * @param map
+	 * @return
+	 * @throws FileNotFoundException
+	 * @throws IOException
+	 * @throws NotFoundException
+	 */
 	public static String readQRcode(String path, String charset, Map<EncodeHintType, ErrorCorrectionLevel> map)
 			throws FileNotFoundException, IOException, NotFoundException {
 		BinaryBitmap binaryBitmap = new BinaryBitmap(
@@ -26,15 +42,11 @@ public class ReadQrCode {
 		Result rslt = new MultiFormatReader().decode(binaryBitmap);
 		return rslt.getText();
 	}
-
-	// main() method
-	public static void main(String args[]) throws WriterException, IOException, NotFoundException {
-		// path where the QR code is saved
-		String path = "D:\\Programacao\\java\\ms_eureka_cloud\\Cheque_image\\Quote.png";
-		// Encoding charset to be used
+ 
+	public static void main(String args[]) throws WriterException, IOException, NotFoundException { 
+		String path = "D:\\Programacao\\java\\ms_eureka_cloud\\Cheque_image\\Quote.png"; 
 		String charset = "UTF-8";
-		Map<EncodeHintType, ErrorCorrectionLevel> hintMap = new HashMap<EncodeHintType, ErrorCorrectionLevel>();
-		// generates QR code with Low level(L) error correction capability
+		Map<EncodeHintType, ErrorCorrectionLevel> hintMap = new HashMap<EncodeHintType, ErrorCorrectionLevel>(); 
 		hintMap.put(EncodeHintType.ERROR_CORRECTION, ErrorCorrectionLevel.L);
 		System.out.println("Data stored in the QR Code is: \n" + readQRcode(path, charset, hintMap));
 	}

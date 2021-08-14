@@ -3,12 +3,22 @@ package com.ms.bankcheck.useful;
 import java.io.File;
 import java.io.FilenameFilter; 
 
+/**class class to put the methods used in various code reuse classes.
+* @author Vanderlei Soares de Oliveira
+* @version 0.01
+* @since Release 01 
+*/
 public class Useful {
 
 	public void AttachImagens() {
 
 	}
 
+	/***
+	 * List files in a folder
+	 * @param directory
+	 * @return List File
+	 */
 	public static File[] listFiles(String directory) {
 		File[] files = null;
 		try {
@@ -36,6 +46,11 @@ public class Useful {
 		return files;
 	}
 
+	/***
+	 * Get Base Name not extension
+	 * @param fileName
+	 * @return the name not extension 
+	 */
 	public static String getBaseName(String fileName) {
 		String fname = fileName;
 		int pos = fname.lastIndexOf(".");
@@ -45,6 +60,11 @@ public class Useful {
 		return fname;
 	}
 	
+	
+	/***
+	 * Delete Files
+	 * @param pathFile
+	 */
 	public static void deleteFile(String pathFile) {
 		File myFile = new File(pathFile); 
 		myFile.delete();

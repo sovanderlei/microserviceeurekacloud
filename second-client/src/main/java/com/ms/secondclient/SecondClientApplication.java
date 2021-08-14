@@ -7,6 +7,12 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/**class Microservice  client of server.
+* @author Vanderlei Soares de Oliveira
+* @version 0.01
+* @since Release 01 
+*/
+
 @SpringBootApplication
 @EnableEurekaClient
 public class SecondClientApplication {

@@ -14,9 +14,23 @@ import com.google.zxing.client.j2se.MatrixToImageWriter;
 import com.google.zxing.common.BitMatrix;
 import com.google.zxing.qrcode.decoder.ErrorCorrectionLevel;
 
+/**class Microservice  to demonstrate how to merge images and work with QRCode.
+* @author Vanderlei Soares de Oliveira
+* @version 0.01
+* @since Release 01 
+*/
 public class GenerateQRCode {
-
-	// static function that creates QR Code
+ 
+	
+	/***
+	 * generate QRcode
+	 * @author Vanderlei Soares de Oliveira
+	 * @Date 13/08/2021
+	 * @param data
+	 * @param path
+	 * @param h
+	 * @param w
+	 */
 	@SuppressWarnings("deprecation")
 	public static void generateQRcode(String data, String path, int h, int w){
 		
@@ -28,17 +42,14 @@ public class GenerateQRCode {
 		try {
 			matrix = new MultiFormatWriter().encode(new String(data.getBytes(charset), charset),
 					BarcodeFormat.QR_CODE, w, h);
-		} catch (UnsupportedEncodingException e) {
-			// TODO Auto-generated catch block
+		} catch (UnsupportedEncodingException e) { 
 			e.printStackTrace();
-		} catch (WriterException e) {
-			// TODO Auto-generated catch block
+		} catch (WriterException e) { 
 			e.printStackTrace();
 		}
 		try {
 			MatrixToImageWriter.writeToFile(matrix, path.substring(path.lastIndexOf('.') + 1), new File(path));
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
+		} catch (IOException e) { 
 			e.printStackTrace();
 		}
 	}

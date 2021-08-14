@@ -10,6 +10,13 @@ import org.slf4j.LoggerFactory;
 import com.ms.bankcheck.useful.GenerateQRCode;
 import com.ms.bankcheck.useful.Useful;
 
+/**
+ * class Microservice to demonstrate how to merge images and work with QRCode.
+ * 
+ * @author Vanderlei Soares de Oliveira
+ * @version 0.01
+ * @since Release 01
+ */
 public class CheckBkController {
 
 	private Logger loggers = LoggerFactory.getLogger(CheckBkController.class);
@@ -20,6 +27,11 @@ public class CheckBkController {
 
 	}
 
+	/**
+	 * Monitoring Origin Folder
+	 * @author Vanderlei Soares de Oliveira
+	 * @Date 13/08/2021
+	 */
 	public void MonitoringOriginFolder() {
 
 		this.loggers.info("MonitoringOriginFolder");
@@ -40,6 +52,11 @@ public class CheckBkController {
 
 	}
 
+	/**
+	 * process Folder
+	 * @author Vanderlei Soares de Oliveira
+	 * @Date 13/08/2021
+	 */
 	private void processFolder() {
 
 		String pathOrigin = "D:/temp/Chequeimage/CheckOrigin/";
@@ -77,6 +94,11 @@ public class CheckBkController {
 
 	}
 
+	/**
+	 * get Data Customer
+	 * @author Vanderlei Soares de Oliveira
+	 * @Date 13/08/2021
+	 */
 	private String getDataCustomer(String IdCustomer) {
 
 		// IdCustomer = get id from file and look for data of Customer
@@ -89,6 +111,11 @@ public class CheckBkController {
 		return sText;
 	}
 
+	/**
+	 * join Files
+	 * @author Vanderlei Soares de Oliveira
+	 * @Date 13/08/2021
+	 */
 	private void joinFiles(String pathOrigin, String pathDestiny, String nameFile, String nameFileQr) {
 
 		try {

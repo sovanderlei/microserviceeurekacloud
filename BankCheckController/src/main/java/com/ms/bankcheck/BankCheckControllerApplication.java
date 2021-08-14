@@ -1,5 +1,10 @@
 package com.ms.bankcheck;
 
+/**class Microservice  to demonstrate how to merge images and work with QRCode.
+* @author Vanderlei Soares de Oliveira
+* @version 0.01
+* @since Release 01 
+*/
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
